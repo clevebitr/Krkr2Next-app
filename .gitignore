@@ -1,0 +1,15 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+# 引擎产物由父仓库 build.sh 投放，不入库
+app/src/main/jniLibs/
+# 签名与密钥
+*.jks
+*.keystore
